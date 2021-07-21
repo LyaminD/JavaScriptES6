@@ -21,8 +21,6 @@
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
 
-
-
 ## Arrow functions
 ➡️ Exercice à réaliser dans le dossier `2-functions`
 
@@ -39,8 +37,6 @@ Complétez le code pour reproduire le comportement de la section 1 mais cette fo
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
 
-
-
 ## `Object.keys` & `Object.values`
 ➡️ Exercice à réaliser dans le dossier `3-objects`
 
@@ -51,8 +47,6 @@ Afficher les carractéristiques du véhicule sours la forme `clé : valeur` (Ex:
 Pour chacunes des perturbations du fichier `data.js` (variable `data`) afficher leur texte.
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
-
-
 
 ## Destructuring
 ➡️ Exercice à réaliser dans le dossier `4-destructuring`
@@ -65,8 +59,6 @@ Pour chacunes des perturbations du fichier `data.js` (variable `data`) afficher 
 Pour chacunes des perturbations du fichier `data.js` (variable `data`) récupérer dans des variables puis afficher leur texte, date de début et date de fin.
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
-
-
 
 ## Import / Export
 ➡️ Exercice à réaliser dans le dossier `5-import`

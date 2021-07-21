@@ -12,13 +12,6 @@ const bus = {
     equipments: ['sae', 'tft', 'speech']
 }
 
-console.log(Object.entries(bus));
-
-
 //3.2 Object.values
 
-Object.values(data).forEach(function(element)
-{
-    console.log(element.texte)
-})
-
+console.log(data)
