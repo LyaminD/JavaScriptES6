@@ -1,13 +1,13 @@
 //2.1 Fonctions simples
-const sayHello = function() {
+const sayHello = () => {
     console.log('Hello')
 }
 
-const sayMyName = function(first, last) {
+const sayMyName = (first, last) => {
     console.log(first, last)
 }
 
-const sayMyAge = function(age) {
+const sayMyAge = (age) => {
     console.log('You are ' + age + ' years old')
 }
 
@@ -26,23 +26,24 @@ const object = {
         console.log(this)
     }
 }
-
+// fonction flechée fonctionne pas ici car la portée ne permet pas d'atteindre l'objet
 object.showThis()
 
 //----------------------//
 //2.3 Application
 
-const odile = {
+
+const odile =  {
     name: {
         first: 'Odile',
         last: 'Crok'
     },
     age: 23,
-    //sayHello: ...
-    //sayMyName:...
-    //sayMyAge:...
+    sayHello: () =>   console.log('Hello'),
+    sayMyName: () => console.log(odile.name.first, odile.name.last),
+    sayMyAge: () => console.log('You are ' + odile.age + ' years old'),
 }
 
-//odile.sayHello()
-//odile.sayMyName()
-//odile.sayMyAge()
+odile.sayHello()
+odile.sayMyName()
+odile.sayMyAge()

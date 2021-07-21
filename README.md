@@ -28,7 +28,7 @@
 Convertissez les 3 fonctions avec la notation "Arrow function" et vérifiez que le code fonctionne comme avant la conversion
 
 ### Section 2
-1. **Avant toute modification : a ssurez-vous de comprendre le code déjà écrit ! Au besoin commentez-le.**
+1. **Avant toute modification : assurez-vous de comprendre le code déjà écrit ! Au besoin commentez-le.**
 2. Convertissez la fonction `showThis` en notation "Arrow function"
 3. Observez le résultat. Que pouvez-vous en conclure ?
 
@@ -41,7 +41,7 @@ Complétez le code pour reproduire le comportement de la section 1 mais cette fo
 ➡️ Exercice à réaliser dans le dossier `3-objects`
 
 ### Section 1
-Afficher les carractéristiques du véhicule sours la forme `clé : valeur` (Ex: `id: 3221`)
+Afficher les caractéristiques du véhicule sours la forme `clé : valeur` (Ex: `id: 3221`)
 
 ### Section 2
 Pour chacunes des perturbations du fichier `data.js` (variable `data`) afficher leur texte.
